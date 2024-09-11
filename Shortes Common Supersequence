@@ -1,0 +1,32 @@
+Given two strings, str1 and str2, find the length of the shortest string that has both the input strings as subsequences.
+
+Note: A string 
+�
+X
+ is a subsequence of string 
+�
+Y
+ if deleting some number of characters from 
+�
+Y
+ results in the string 
+�
+X
+.
+
+Let’s assume that we have two strings as follows:
+
+str1 = "yabc"
+str2 = "xabc"
+There can be multiple strings that have str1 and str2 as subsequences, for example, "xyaabcc" and "xyabbc", but the shortest string that has these input strings as subsequences is "xyabc". Please note that the sequence of alphabets in the string can be altered.
+
+Constraints:
+
+1
+≤
+1≤
+ str1.length, str2.length 
+≤
+500
+≤500
+str1 and str2 consist of lowercase English letters.
