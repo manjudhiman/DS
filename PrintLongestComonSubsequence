@@ -1,0 +1,5 @@
+Print the Longest Common Subequence Substring.
+
+
+example: a =  'test' b= 'tfe'
+Output: 'te'
