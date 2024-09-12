@@ -1,0 +1,44 @@
+Given a string, you have to find the length of the longest subsequence that occurs at least twice and respects this constraint: the characters that are re-used in each subsequence should have distinct indexes.
+
+Note: A subsequence is part of an array whose elements are not necessarily contiguous. For example, given an array “abcde”, both “abcd” and “abe” are subsequences of the original array.
+
+For example, let’s say you have to find the longest repeating subsequence from the string “aaaaba”. In this string, the longest repeating subsequence will be of length 
+4
+4
+ because the subsequence “aaaa” occurs twice.
+
+Subsequence 1 = “aaaa” (indexes: 0, 1, 2, 3)
+
+Subsequence 2 = “aaaa” (indexes: 1, 2, 3, 5)
+
+Observing both subsequences, we note that the “a”'s at indexes 
+1
+1
+, 
+2
+2
+, and 
+3
+3
+ occur in both subsequences. However, we must understand that although they are repeating, the placement of these “a”'s is different in each subsequence. In the first subsequence, the “a” at index 
+1
+1
+ in the original string is placed at index 
+1
+1
+, while in the second subsequence, it is placed at the 
+0
+�
+ℎ
+0th
+ index.
+
+Constraints:
+
+0
+≤
+0≤
+ str.length 
+≤
+400
+≤400
