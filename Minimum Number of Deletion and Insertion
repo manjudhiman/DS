@@ -1,0 +1,22 @@
+Given two strings, str1 and str2, find the minimum number of deletions and insertions required to transform str1 into str2.
+
+Note: This problem has a direct application in the autocorrect feature. It is also used in bioinformatics to quantify the similarity between two DNA sequences.
+
+For example, if we want to transform str1 “pqr” into str2 “tqr”, we need to delete “p” and insert “t” in str1. Therefore, the minimum number of deletions and insertions required are:
+
+Deletions: 
+1
+1
+Insertions: 
+1
+1
+Constraints:
+
+1
+≤
+1≤
+ str1.length, str2.length 
+≤
+500
+≤500
+str1 and str2 are in the same case English letters.
