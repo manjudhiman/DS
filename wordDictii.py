@@ -1,3 +1,8 @@
+Complexity
+Time complexity: O(2^n)
+
+Space complexity: O(2^n)
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         res = []
