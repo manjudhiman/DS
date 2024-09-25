@@ -1,0 +1,70 @@
+Given an integer array nums, the task is to remove or delete the minimum number of elements from the array so that the remaining elements form a strictly increasing sequence. This is very similar to the Longest Increasing Subsequence (LIS) problem because elements other than the longest increasing subsequence should be removed to make the sequence sorted.
+
+Let’s say we have an integer array, [4, 2, 3, 6, 10, 1, 12], and we want to delete the minimum number of elements to make the remaining sequence sorted. We can do this by finding the length of the longest increasing subsequence first, which is 5 here because the longest increasing subsequence is [2, 3, 6, 10, 12]. All elements other than this should be removed to get a sorted sequence. We need to remove 4 and 1 from the array. So, the minimum number of deletions required is 2. We can formulate this relationship as:
+
+Minimum Deletions=Array Length−LIS Length
+
+Constraints:
+
+1
+≤
+1≤
+ nums.length 
+≤
+985
+≤985
+−
+1
+0
+4
+≤
+−10 
+4
+ ≤
+ nums[i] 
+≤
+1
+0
+4
+≤10 
+4
+ 
+Examples
+No.
+
+Input
+
+LIS
+
+Elements to Delete
+
+Output
+
+1
+
+[4, 2, 3, 6, 10, 1, 12]
+
+2, 3, 6, 10, 12
+
+4, 1
+
+2
+
+2
+
+[1, 3, 6, 7, 9, 4, 10, 5, 6]
+
+1, 3, 6, 7, 9, 10
+
+4, 5, 6
+
+3
+
+3
+
+[30, 40, 2, 5, 1, 7, 45, 50, 8]
+
+2, 5, 7, 45, 50
+
+30, 40, 1, 8
+
