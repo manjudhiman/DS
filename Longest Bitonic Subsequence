@@ -1,0 +1,123 @@
+Statement
+Suppose you are given an array, nums, containing positive integers. You need to find the length of the longest bitonic subsequence in this array. A bitonic subsequence can be of the following three types:
+
+It can consist of numbers that are first increasing and then decreasing. For example, 
+(
+2
+,
+6
+,
+9
+,
+3
+,
+2
+)
+(2,6,9,3,2)
+.
+
+It can consist of numbers that are only increasing (where the decreasing part at the end is empty). For example, 
+(
+2
+,
+3
+,
+7
+,
+9
+)
+(2,3,7,9)
+.
+
+It can consist of numbers that are only decreasing (where the increasing part at the start is empty). For example, 
+(
+15
+,
+12
+,
+5
+,
+3
+,
+2
+,
+1
+)
+(15,12,5,3,2,1)
+.
+
+Let’s say you have the following array:
+
+[
+19
+,
+20
+,
+5
+,
+3
+,
+13
+]
+[19,20,5,3,13]
+The longest bitonic subsequence from this array is 
+(
+19
+,
+20
+,
+5
+,
+3
+)
+(19,20,5,3)
+, and the length of this subsequence is 
+4
+4
+.
+
+Constraints:
+
+1
+≤
+1≤
+ nums.length 
+≤
+900
+≤900
+1
+≤
+1≤
+ nums[i] 
+≤
+1
+0
+4
+≤10 
+4
+ 
+Examples
+No.
+
+nums
+
+length
+
+1
+
+[6, 5, 3, 7, 10, 1, 2]
+
+4
+
+2
+
+[1, 4, 9, 2, 16, 20]
+
+5
+
+3
+
+[34, 33, 30, 25, 22, 40, 18]
+
+6
+
