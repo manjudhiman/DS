@@ -3,7 +3,7 @@ def LDS(nums):
     dp = [1 for _ in nums]
     
     for i in range(length-2,-1, -1):
-        for j in range(length-1, i, -1):
+        for j in range(i,length):
             if nums[i] > nums[j]:
                 dp[i] = max(dp[i], dp[j] +1)
                 
