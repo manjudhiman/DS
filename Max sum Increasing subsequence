@@ -1,3 +1,6 @@
+Given an array of integers nums, identify the increasing subsequence whose sum is the highest among all increasing subsequences. Return the sum. Note that an increasing subsequence of an array is defined as a subsequence whose elements are sorted in strictly increasing order.
+
+
 Let’s say we have an integer array [4, 1, 2, 6, 10, 1, 12], and we want to get the maximum sum increasing subsequence in this array. There are multiple increasing subsequences with different sums, [1, 2, 6, 10, 12], [2, 6, 10, 12], [6, 10, 12], [4, 6, 10, 12], and so on. The maximum sum increasing subsequence (MSIS), in this case, is [4, 6, 10, 12], with sum 32.
 
 Constraints:
