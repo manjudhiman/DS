@@ -1,0 +1,48 @@
+Given a string str1, find the count of palindromic substrings in it.
+
+A string is said to be a palindrome if it can be read the same backward and forward. For example, “madam” is a palindrome because it can be read the same from left to right and right to left.
+
+A substring is a sequence of consecutive characters from a string. For example, “way” is a substring of “subway”.
+
+For example, if we have a string “aaa”, the palindromic substrings and its count will be:
+
+“a”, “a”, “a”, “aa”, “aa”, “aaa”
+Count of palindromic substrings will be equal to 
+6
+6
+Note: This problem has a direct application in bioinformatics. It is used in the analysis of DNA and RNA.
+
+Constraints:
+
+1
+≤
+1≤
+ str1.length 
+≤
+150
+≤150
+str1 consists of the same case English letters.
+Examples
+No.
+
+str1
+
+Palindromic Substrings
+
+Count of Palindromic Substrings
+
+1
+
+pqr
+
+"p", "q", "r"
+
+3
+
+2
+
+aaa
+
+"a", "a", "a", "aa", "aa", "aaa"
+
+6
