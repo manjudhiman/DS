@@ -1,0 +1,96 @@
+Statement
+Suppose you are given an array, nums, containing positive numbers. You need to partition the array into two arrays such that the absolute difference between their sums is minimized.
+
+Note: Each element of the nums array should be present in one of the partitioned arrays.
+
+Let’s say you have the following array:
+
+[2, 3, 1]
+The two partitioned arrays with the minimum difference in their sums are:
+
+[
+2
+,
+1
+]
+,
+�
+�
+�
+=
+3
+[2,1],sum=3
+[
+3
+]
+,
+�
+�
+�
+=
+3
+[3],sum=3
+So, the minimum difference becomes 
+∣
+3
+−
+3
+∣
+=
+0
+∣3−3∣=0
+.
+
+Constraints:
+
+1
+≤
+1≤
+ nums.length 
+≤
+900
+≤900
+1
+≤
+1≤
+ nums[i] 
+≤
+1
+0
+4
+≤10 
+4
+ 
+Examples
+No.
+
+nums
+
+partitioned arrays
+
+mimimum difference
+
+1
+
+[5, 4, 4, 7, 2, 9 ]
+
+[4, 5, 7], [2, 4, 9]
+
+1
+
+2
+
+[3, 25, 4, 12, 2]
+
+[25], [12, 4, 3, 2]
+
+4
+
+3
+
+[3, 7, 4, 12, 2]
+
+[7, 4, 3], [12, 2]
+
+0
+
